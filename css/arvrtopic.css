@@ -88,6 +88,7 @@ h3{
 	
 }
 
+
 p.inleiding{
 	font-family: Hind;
 	font-size: 13px;
@@ -96,15 +97,22 @@ p.inleiding{
 	width: 70%;
 }
 
-.opdracht1b{
-	background-color: #d9d9d9;
+.opdracht1{
 	font-family: Hind;
 	font-size: 13px;
 	padding: 10px;
 	margin:auto;
-	width: 98%;
+	
 }
 
-.opdracht1b p{
-	width: 50%;
+.opdracht1 p{
+	width: 70%;
+	margin:auto;
+}
+
+.opdracht1 img{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-top: 20px;
 }
