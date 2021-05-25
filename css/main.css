@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+  	background-position: center center;
+
+}
+
+nav{
+	width: 100%;
+	margin-top: 20px;
+}
+
+nav ul{
+	padding-left: 10px;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a:hover{
+	color: #9D43F6;
+}
+
+nav ul li a{
+	display: block;
+	font-family: Ubuntu;
+	color: grey;
+	font-size: 12px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: none;
+	padding: 5px;
+	text-align: center;	
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	width: 130px;
+}
+
+nav ul li ul li a{
+	padding: 8px 35px 8px 10px;
+	
+}
+
+#home{
+	color: #9D43F6;
+}
+
+h1{
+	font-family: Ubuntu;
+	font-size: 100px;
+	font-weight: 700;
+	text-shadow: 2px 2px 15px #c9c9c9;
+	color: white;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	letter-spacing: 5px;
+  	animation-name: portfolio;
+  	animation-duration: 1s;
+  	animation-timing-function: ease-in-out;
+}
+
+@keyframes portfolio{
+  from {left: 40%;}
+  to {left: 50%;}
+}
+
+h3{
+	font-family: 'Inconsolata', monospace;
+	color: #9D43F6;
+	font-size: 15px;
+	position: absolute;
+	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+}
