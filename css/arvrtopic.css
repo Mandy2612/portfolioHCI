@@ -97,7 +97,7 @@ p.inleiding{
 	width: 70%;
 }
 
-.opdracht1{
+.opdracht{
 	font-family: Hind;
 	font-size: 13px;
 	padding: 10px;
@@ -105,14 +105,31 @@ p.inleiding{
 	
 }
 
-.opdracht1 p{
+.opdracht p{
 	width: 70%;
 	margin:auto;
 }
 
-.opdracht1 img{
-	 display: block;
+.opdracht img{
+	display: block;
     margin-left: auto;
     margin-right: auto ;
     padding-top: 20px;
+}
+
+#myBtn{
+	background-color: #9D43F6;
+	color: white;
+	font-family: Hind;
+	font-size: 13px;
+	margin: auto;
+	padding: 10px 30px;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+#myBtn:hover{
+	background-color:#c9c9c9;
+	color: #9D43F6;
 }

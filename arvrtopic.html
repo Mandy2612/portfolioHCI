@@ -51,7 +51,7 @@
 
 		<h3>Opdracht 1</h3>
 
-		<div class="opdracht1">
+		<div class="opdracht">
 			<p><strong>B. Cars - VR rijles</strong></p><br>
 			<p>We leven nu allemaal in de tijd van Covid, waarbij de rijlessen vaak hebben platgelegen. Soms zolang dat je als leerling al vergeten bent hoe het ook alweer moest. Hiervoor is er een leuk concept voor bedacht namelijk het virtueel rijlessen. Dit concept kan ook worden ingezet voor leerlingen die het spannend vinden om hun eerste rijles te volgen of voor mensen die al heel lang hun rijbewijs hebben maar te lang niet hebben gereden en het nog een beetje spannend vinden. <br><br> Hoe werkt het concept?<br><br>Voor je heb je een stuur, drie pedalen en een schakelpook. Met behulp van de VR-bril bevind je je op de weg, net zoals het echte leven. Je krijgt op de navigatie te zien waar je heen moet, deze aanwijzingen moet je volgen. Doe je iets verkeerd? Dan krijg je een ingreep, net zoals een echte rijles. </p>
 
@@ -60,7 +60,7 @@
 		</div>
 		<br>
 
-		<div class="opdracht1">
+		<div class="opdracht">
 			<p><strong>C. Public Transport - Vliegangst overwinnen</strong></p><br>
 			<p>Veel mensen hebben last van hoogtevrees en dus ook vliegangst. Om deze reden durven zij bijvoorbeeld niet naar verre landen te reizen waarvoor ze moeten vliegen. Daarom lijkt het mij een leuk idee om een concept te bedenken waarbij je met VR de beleving van vliegen in een vliegtuig kan beleven in de cockpit view. Zo kan de angst misschien zelfs overwonnen worden. 
 			<br><br> Hoe werkt het concept?<br><br>Met behulp van de VR-bril beleef je de opstijging van het vliegtuig tot aan de landing. Dit kan zo’n 15 minuten duren. Zo kan je voor paar minuten even de ervaring meemaken hoe het is boven in de lucht. Hiermee beleef je de ervaring van vliegen en kan de gebruiker misschien zelfs zijn/haar angst overwinnen!</p>
@@ -70,7 +70,7 @@
 		</div>
 		<br>
 
-		<div class="opdracht1">
+		<div class="opdracht">
 			<p><strong>D. Healthy lifestyle - Map in supermarkt</strong></p><br>
 			<p>Ben je soms ook toe aan iets nieuws? Zoals nieuwe gezonde recepten die je niet zo vaak maakt? En weet je dan ook niet waar het allemaal ligt in de supermarkt? Hiervoor heb ik een concept voor bedacht! 
 			<br><br>Hoe werkt het concept?<br><br>Er moet allereerst een app worden gedownload. In de app geef je aan naar welke supermarkt je gaat en maak je een keuze wat je wilt gaan koken. De app laat je wel alleen tussen gezonde recepten kiezen zodat je een gezonder levensstijl aangaat. Eenmaal aangekomen in de supermarkt krijg je met behulp van AR een map met aanwijzingen op je telefoon te zien. Deze route moet je volgen om zo alle ingrediënten mee te nemen. Dit is handig voor als je in een heel groot supermarkt terecht komt, of ergens waar je nog nooit bent geweest. Zo voorkom je ook nog is dat je iets vergeet!</p>
@@ -81,7 +81,7 @@
 		<br>
 
 		<h3>Opdracht 2</h3>
-		<div class="opdracht1">
+		<div class="opdracht">
 			<p>Titel: Augmented reality helps surgeons 'see through' tissue to reconnect blood vessels<br>
 			Auteur: Ryan O'Hare<br>
 			Project creators: Team van het Imperial College London<br>
@@ -91,5 +91,31 @@
 			<img src="images/arvr4.jpg" alt="Ar project" />
 
 		</div>
+		<br><br>
+
+		<button onclick="topFunction()" id="myBtn">Terug naar boven</button>
+		<br><br>
+
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
 	</body>
 </html>
