@@ -32,7 +32,7 @@ nav ul li a{
 	display: block;
 	font-family: Ubuntu;
 	color: grey;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 10px 20px;
 	text-decoration: none;
 	font-weight: bold;
@@ -81,21 +81,15 @@ h2{
 
 
 h3{
-	font-family: Hind;
-	font-size: 14px;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 16px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	width: 50%;
+	margin:auto;
 	
 }
 
-
-p.inleiding{
-	font-family: Hind;
-	font-size: 13px;
-	padding-top: 10px;
-	margin:auto;
-	width: 70%;
-}
 
 .opdracht{
 	font-family: Hind;
@@ -106,7 +100,7 @@ p.inleiding{
 }
 
 .opdracht p{
-	width: 70%;
+	width: 50%;
 	margin:auto;
 }
 
