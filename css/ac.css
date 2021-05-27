@@ -103,6 +103,13 @@ h3{
 	margin:auto;
 }
 
+.opdracht img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-top: 20px;
+}
+
 #myBtn{
 	background-color: #9D43F6;
 	color: white;
