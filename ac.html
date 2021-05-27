@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale= 1" />
+		<title>Portfolio - HCI</title>
+		<link rel="stylesheet" type="text/css" href="css/ac.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html" id="home">home.</a></li>
+					<li><a href=" " id="topic">topic assignments.</a>
+						<ul>
+							<li><a href="arvrtopic.html">AR/VR</a></li>
+							<li><a href="wearables.html">Wearables</a></li>
+							<li><a href="ac.html">Artificial Creatures</a></li>
+							<li><a href="pi.html">Playful Interfaces</a></li>
+						</ul>
+					</li>
+					<li><a href=" " id="workshop">workshop assignments.</a>
+						<ul>
+							<li><a href="arvrworkshop.html">AR/VR</a></li>
+							<li><a href="arduino.html">Arduino</a></li>
+							<li><a href="cv.html">Computer Vision</a></li>
+						</ul>
+					</li> 
+					<li><a href="" id="guestlecture">guest lecture.</a>
+						<ul>
+							<li><a href="guestectureassignment.html">Assignment</a></li>
+							<li><a href="guestlecturereflect.html">Reflect</a></li>
+						</ul>
+					</li>
+					<li><a href="" id="labweeks">labweeks.</a>
+						<ul>
+							<li><a href="product.html">Product</a></li>
+							<li><a href="proces.html">Proces</a></li>
+							<li><a href="proces.html">Reflect</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Topic assignment - </h1><br>
+		<h2>Artifical Creatures</h2>
+
+		<div class="opdracht">
+			<h3>Inleiding</h3><br>
+			<p>Het onderwerp van deze week is Artificial Creature. Artifical creatures zijn creatures (wezens) die gemaakt zijn door de mens. Tijdens het hoorcollege zijn er onder andere wat voorbeelden laten zien van artificial creatures en hebben we het gehad over het homeostase model. Dit model werkt door het identificeren van behoeftes van een product. Deze behoeftes worden door eigen acties en externe prikkels beïnvloed. Uiteindelijk bepaalt dit het gedrag van een product. Om me meer te verdiepen in dit onderwerp voer ik een opdracht uit en doe ik onderzoek naar een interessant project.</p>
+		</div>
+		<br><br>
+
+
+
+		<div class="opdracht">
+			<h3>Homeostase</h3><br>
+			<p>In deze opdracht experimenteer ik met het toepassen van het homeostase model op een device. Het device waarvoor ik heb gekozen is een automatische schuifdeur. Ik vertel hierin wat de primaire functies zijn van dit device, welke behoeftes er nodig zijn om het te laten werken en geef ik een voorbeeld hoe het device zich ‘voelt’ bij verschillende staten van zijn behoeftes. <br><br>
+			<p><strong>Een automatische schuifdeur</strong></p><br>
+			<p>De primaire functie van een automatische schuifdeur spreekt eigenlijk wel voor zich, namelijk het automatisch openschuiven van de deuren wanneer er mensen doorheen willen gaan. Om de schuifdeuren goed te kunnen laten functioneren, hebben die behoeftes nodig. Allereerst zijn er vanuit de externe stimuli natuurlijk mensen nodig die door de schuifdeuren willen gaan. Wanneer iemand door de schuifdeur heen wil, heeft dit gevolgen voor de interne toestand. De bewegingssensoren van een schuifdeur worden namelijk geactiveerd. Deze zullen met behulp van bijvoorbeeld infrarood, bewegingen observeren. Hierdoor zullen de openings- en sluitingsfunctie van een schuifdeur worden geactiveerd. <br><br>
+			Wanneer er weinig gebruik wordt gemaakt van de automatische schuifdeur, zullen de bewegingssensoren van de schuifdeur ‘in slaap vallen’. De schuifdeuren voelen zich dan eenzaam omdat er niemand gebruik maakt van de deuren en zullen niet meer reageren als er wel mensen voor de deur staan. Om de schuifdeuren wakker te maken, kan er gebruik worden gemaakt van een ‘wake me up’ zwaai sensor. Op de schuifdeuren zal er dan tekst te zien zijn als ‘wake me up’. Hierdoor moet de persoon die door de schuifdeuren wilt, eerst de schuifdeuren ‘wakker maken’ door met de hand voor een sensor te zwaaien. Vervolgens zullen de deuren weer normaal functioneren en pas in slaap vallen wanneer er na lange tijd geen gebruik wordt gemaakt.
+ 			</p>
+
+		</div>
+		<br><br>
+		<button onclick="topFunction()" id="myBtn">Terug naar boven</button>
+		<br><br>
+
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+	</body>
+	</html>
