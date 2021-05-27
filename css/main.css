@@ -102,3 +102,13 @@ h3{
   	transform: translate(-50%, -50%);
 
 }
+
+p{
+	font-family: 'Inconsolata', monospace;
+	color: #9D43F6;
+	font-size: 14px;
+	text-align: left;
+	position: absolute;
+	top: 88%;
+	left: 2%;
+}
