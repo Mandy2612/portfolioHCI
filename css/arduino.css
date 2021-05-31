@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+nav{
+	width: 100%;
+	margin-top: 20px;
+}
+
+nav ul{
+	padding-left: 10px;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a:hover{
+	color: #9D43F6;
+}
+
+nav ul li a{
+	display: block;
+	font-family: Ubuntu;
+	color: grey;
+	font-size: 13px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	z-index: 2;
+	border: none;
+	padding: 5px;
+	text-align: left;	
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	width: 170px;
+}
+
+nav ul li ul li a{
+	padding: 8px 35px 8px 10px;
+	
+}
+
+#workshop{
+	color: #9D43F6;
+}
+
+h1{
+	font-family: 'ABeeZee', sans-serif;
+	text-align: right;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+h2{
+	font-family: 'ABeeZee', sans-serif;
+	text-align: right;
+	color: #9D43F6;
+	margin-right: 20px;
+}
+
+h3{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	margin: auto;
+	width: 50%
+	
+}
+
+
+.opdracht{
+	font-family: Hind;
+	font-size: 13px;
+	padding: 10px;
+	margin:auto;
+	
+}
+
+.opdracht p{
+	width: 50%;
+	margin:auto;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 600px 600px;
+	grid-template-rows: 400px 400px;
+	grid-gap: 5px;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	margin: 20px;
+
+}
+
+.foto-video img {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+.foto-video video{
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
