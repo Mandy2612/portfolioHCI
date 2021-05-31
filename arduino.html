@@ -45,7 +45,7 @@
 		<h1>Workshop assignment - </h1><br>
 		<h2>Arduino</h2>
 
-		<div class="opdracht">
+		<div class="reflect">
 			<h3>Inleiding</h3><br>
 			<p>In deze workshop maak ik kennis met Arduino en de wereld van fysieke computergebruik. Arduino is een open-source elektronicaplatform voor het bouwen van prototypes. Het is gebaseerd op flexibele, gebruiksvriendelijke hardware en software. Bedoeld voor kunstenaars, ontwerpers en iedereen die geïnteresseerd is in het creëren van interactieve objecten of omgevingen. Arduino bestaat uit een open-source microcontroller en een software-omgeving om het in te programmeren. Tijdens de workshop heb ik dan ook allerlei opdrachten uitgevoerd met behulp van Arduino en de software waarin er geprogrammeerd wordt. De resultaten toon ik hieronder in de vorm van een korte video.</p>
 		</div>
@@ -53,7 +53,7 @@
 
 		<div class="opdracht">
 			<h3>Exercises</h3><br>
-			<p><strong>Exercise 3B: Blink multiple leds</strong></p>
+			<p><strong>Exercise 3B: BLINK MULTIPLE LEDS </strong></p>
 			<p>In deze opdracht was het de bedoeling om de twee leds om en om te laten branden.</p>
 			<div class="grid-container">
 				<div class="foto-video">
@@ -68,5 +68,146 @@
 			
 			</div>
 		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>Exercise 4C: FADE LED – ANALOG OUTPUT </strong></p>
+			<p>In deze opdracht laat ik de ene led langzaam uit gaan terwijl de andere led tegelijk langzaam aan gaat.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/4c.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls muted>
+			 		 <source src="images/4c.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+
+
+		<div class="opdracht">
+			<p><strong>Exercise 6C: CONTROLLING A LED WITH A POTMETER </strong></p>
+			<p>In deze opdracht draai ik aan een potmeter waardoor leds aan en uit kunnen gaan.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/6c.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls muted>
+			 		 <source src="images/6c.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>EXERCISE 7A: LED MATRIX </strong></p>
+			<p>Een smiley face en een frowney face verschijnen op de LED Matrix.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/7a.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls muted>
+			 		 <source src="images/7a.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>EXERCISE 8: CONTROL THE LED WITH LIGHT</strong></p>
+			<p>In deze opdracht bedien ik de led door middel van een lichtsensor die meet hoeveel licht er binnen valt.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/8.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls muted>
+			 		 <source src="images/8.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>EXERCISE 9C: SOUND</strong></p>
+			<p>In deze opdracht laat ik een sirene geluid afgaan.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/9c.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls unmuted>
+			 		 <source src="images/9c.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>EXERCISE 11C: DISTANCE</strong></p>
+			<p>Door middel van de Ultrasonic Proximity Sensor kan de afstand worden gemeten. Hierdoor zal de led aan en uit gaan.</p>
+			<div class="grid-container">
+				<div class="foto-video">
+					<img src="images/11c.png" alt="code" />
+				</div>
+
+				<div class="foto-video">
+					<video controls muted>
+			 		 <source src="images/11c.mp4" type="video/mp4">
+					</video>
+				</div>
+			
+			</div>
+		</div>
+		<br><br>
+		<div class="reflect">
+			<h3>Reflect</h3><br>
+			<p>De afgelopen twee workshops waarin we Arduino hadden gebruikt, vond ik erg lastig. Het kon heel frustrerend zijn wanneer de ledjes bijvoorbeeld niet brandden, of wanneer het gewoon niet doet wat die hoort te doen. Het gaf me wel een fijn gevoel wanneer het wel was gelukt! Ik zou in ieder geval niet meer verder met Arduino willen werken omdat ik het te lastig vind waardoor ik er ook niet heel veel plezier in heb.</p>
+
+		</div>
+		<br><br>
+		<button onclick="topFunction()" id="myBtn">Terug naar boven</button>
+		<br><br>
+
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+
 	</body>
 	</html>
