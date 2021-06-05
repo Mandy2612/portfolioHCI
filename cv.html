@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale= 1" />
+		<title>Portfolio - HCI</title>
+		<link rel="stylesheet" type="text/css" href="css/arvrworkshop.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html" id="home">home.</a></li>
+					<li><a href=" " id="topic">topic assignments.</a>
+						<ul>
+							<li><a href="arvrtopic.html">AR/VR</a></li>
+							<li><a href="wearables.html">Wearables</a></li>
+							<li><a href="ac.html">Artificial Creatures</a></li>
+							<li><a href="pi.html">Playful Interfaces</a></li>
+						</ul>
+					</li>
+					<li><a href=" " id="workshop">workshop assignments.</a>
+						<ul>
+							<li><a href="arvrworkshop.html">AR/VR</a></li>
+							<li><a href="arduino.html">Arduino</a></li>
+							<li><a href="cv.html">Computer Vision</a></li>
+						</ul>
+					</li> 
+					<li><a href="guest.html" id="guestlecture">guest lecture.</a></li>
+					<li><a href="" id="labweeks">labweeks.</a>
+						<ul>
+							<li><a href="product.html">Product</a></li>
+							<li><a href="proces.html">Proces</a></li>
+							<li><a href="proces.html">Reflect</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Workshop assignment - </h1><br>
+		<h2>Computer Vision</h2>
+
+		<div class="opdracht">
+			<h3>Inleiding</h3><br>
+			<p>In deze workshop maak ik kennis met Processing, p5.js en computer vision. Met de programma Processing leer ik hoe ik vormen moet maken en hoe ik deze kan animeren. Ook leer ik hoe ik Arduino samen met Processing kan combineren. Met computer vision kan ik beelden identificeren en verwerken op dezelfde manier als de menselijke visie. De computer vision kan onder andere gebruik maken van p5.js. Dit is een programma waarmee je kan experimenten met computer vision technieken. </p>
+		</div>
+		<br><br>
+		<div class="opdracht">
+			<h3>Exercises</h3><br>
+			<p><strong>Exercise 2F</strong></p>
+			<p>In deze opdracht maak ik kennis met het maken van vormen. Hieronder zie je drie ellipses op verschillende locatie, met verschillende kleuren en groottes. </p>
+			
+			<img src="images/cv2f.png" alt="code" width="650" height="400" />
+				
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>Exercise 2I</strong></p>
+			<p>In deze opdracht maak vier verschillende vormen in verschillen kleuren en op verschillende locaties. </p>
+			
+			<img src="images/cv2i.png" alt="code" width="650" height="400" />
+				
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>Exercise 2O </strong></p>
+			<p>Hieronder zie je een video waarin ik twee vormen heb gemaakt die interactief zijn.</p>
+			
+			<video width="600" height="400" controls>
+		  <source src="images/cv2o.mp4" type="video/mp4">
+		  </video><br>
+		  <img src="images/cv2o.png" alt="code" width="650" height="400" />
+				
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<p><strong>Exercise 3B </strong></p>
+			<p>In deze opdracht heb ik met behulp van Arduino het ledje laten branden door met mijn muis door de vierkant heen te gaan.</p>
+			
+			<video width="600" height="400" controls>
+		  <source src="images/cv3b.mp4" type="video/mp4">
+		  </video><br>
+		   <img src="images/cv3b.png" alt="code" width="690" height="400" />
+				
+		</div>
+		<br><br>
+		<div class="opdracht">
+			<p><strong>Exercise 5C </strong></p>
+			<p>Hieronder zie je een video waarin ik een paarse en blauwe kleur heb toegepast aan de sketch.</p>
+			
+			<video width="600" height="400" controls>
+		  <source src="images/cv5c.mp4" type="video/mp4">
+		  </video><br>
+		  
+				
+		</div>
+		<br><br>
+		<div class="opdracht">
+			<h3>Reflect</h3><br>
+			<p>Het laatste workshop zit er weer op! Deze week ben ik weer een ervaring rijker door met Processing, p5.js en computer vision te werken. De opdrachten waren erg leuk en makkelijk te volgen met duidelijke stappenplan. Vooral de Processing opdrachten met het maken van vormen vond ik erg leuk. Omdat ik al veel met coderen heb gewerkt, was dit ook nog wel te doen. Het scheelt niet veel van HTML/CSS vind ik.  De p5.js en computer vision opdrachten vond ik iets lastiger om de codes te begrijpen. Maar gelukkig ben ik er wel uit gekomen! 
+			</p>
+
+		</div>
+		<br><br>
+		<button onclick="topFunction()" id="myBtn">Terug naar boven</button>
+		<br><br>
+
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+	</body>
+	</html>

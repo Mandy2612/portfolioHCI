@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale= 1" />
+		<title>Portfolio - HCI</title>
+		<link rel="stylesheet" type="text/css" href="css/guest.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html" id="home">home.</a></li>
+					<li><a href=" " id="topic">topic assignments.</a>
+						<ul>
+							<li><a href="arvrtopic.html">AR/VR</a></li>
+							<li><a href="wearables.html">Wearables</a></li>
+							<li><a href="ac.html">Artificial Creatures</a></li>
+							<li><a href="pi.html">Playful Interfaces</a></li>
+						</ul>
+					</li>
+					<li><a href=" " id="workshop">workshop assignments.</a>
+						<ul>
+							<li><a href="arvrworkshop.html">AR/VR</a></li>
+							<li><a href="arduino.html">Arduino</a></li>
+							<li><a href="cv.html">Computer Vision</a></li>
+						</ul>
+					</li> 
+					<li><a href="guest.html" id="guest">guest lecture.</a></li>
+					<li><a href="" id="labweeks">labweeks.</a>
+						<ul>
+							<li><a href="product.html">Product</a></li>
+							<li><a href="proces.html">Proces</a></li>
+							<li><a href="proces.html">Reflect</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Guest Lecture - </h1><br>
+		<h2>Vincent Lindeboom</h2>
+
+		<div class="opdracht">
+			<h3>Inleiding</h3><br>
+			<p>In deze week hebben wij een gastcollege van Vincent Lindeboom. Hij neemt ons mee in een aantal interessante projecten van hem en zijn bedrijf en hoe het vakgebied van HCI in verhouding is tot het commerciële werkveld. Ook komt hij ons alvast inspireren voor de aankomende labweken. Hieronder vertel ik welk project ik het meest interessant vind en doe ik er meer onderzoek naar.</p>
+		</div>
+		<br><br>
+
+		<div class="opdracht">
+			<h3>Project The Octomadness</h3><br>
+			<p>Next Empire heeft samen met designer en animator Klaas-Harm de Boer ‘The Octomadness’ zoötroop ontworpen die is tentoongesteld tijdens een animatiefestival KLIK in Amsterdam. Zoötroop is een van de eerste animatie-apparaten waarmee bewegende beelden kunnen worden bekeken. De Octomadness is een combinate van 3D-animatie, 3D-printen wat stuk voor stuk gezaagd en aan elkaar gelijmd is. Met de Octomadness wilde Klaas-Harm de Boer zeer flexibele personages creëren die kracht en vrijheid van animatie en 3D-printen konden laten zien.<br><br>
+			Octomadness is weergegeven op vier niveaus. Op de bovenste niveau zit een enkele octopus met meer dan acht tentakels, daaronder is er een skateboardend goudvisachtig wezen aanwezig, en daaronder een vrouw met uitzettende en samentrekkende lichaam. Tot slot is er een grijs wezen met lange benen. Al deze figuren zijn hand geschilderd en 3D geprint!<br><br>
+			Om de Octomadness werkend te maken is er gebruik gemaakt van Arduino en aangepaste schakelingen om de installatie zo te kunnen programmeren en timen dat alle elementen gesynchroniseerd zijn. Hieronder vallen muziek, lichten, stroboscoopverlichting en de draaiende plaat. De gehele set-up zal na het aanzetten in een loop beginnen te draaien.<br><br>
+			Ik vind dit een heel interessant project met betrekking tot het werkveld van HCI. De zoötroop is vroeger veel gebruikt in de jaren 80 voor animatiefilms. Maar toch wordt het nu nog steeds gebruikt. Het is interessant om te zien hoe alle objecten hierdoor echt kunnen animeren door middel van wat technische installatie. Daarnaast vind ik het persoonlijk er ook nog is leuk uitzien. De moeite en tijd die hierin is gestoken vind ik erg knap. En dat maakt alles ook zo uniek.</p><br>
+			<p>Bronnen:<br>
+				<a href="https://nl.wikipedia.org/wiki/Zo%C3%B6troop"  target="_blank">https://nl.wikipedia.org/wiki/Zo%C3%B6troop</a><br>
+				<a href="https://nextempire.net/experiments/octomadness "  target="_blank">https://nextempire.net/experiments/octomadness </a>
+			</p>
+
+			<img src="images/octomadness.png" alt="octomadness"  />
+
+		</div>
+		<br><br>
+		<div class="opdracht">
+			<h3>Reflect</h3><br>
+			<p>De hoorcollege van Vincent Lindeboom was erg inspirerend. Hierdoor heb ik ook wat ideeën in mijn hoofd die ik wellicht kan meenemen naar de labweken. De projecten die hij heeft laten zien zagen er allemaal heel tof uit. Het onderzoek naar Octomadness ging best soepel. Er was hier veel over te vinden. Zo heb ik ook geleerd wat zoötroop eigenlijk inhoudt. Al met al weer een interessant hoorcollege.</p>
+
+		</div>
+		<br><br>
+		<button onclick="topFunction()" id="myBtn">Terug naar boven</button>
+		<br><br>
+
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+	</body>
+</html>
