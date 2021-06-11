@@ -138,3 +138,24 @@ video{
 	display: block;
 	margin: 0 auto;
 }
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	margin: 20px;
+
+}
+
+.foto img {
+	
+	justify-content: center;
+}
+
+.foto figcaption{
+	font-family: Hind;
+	font-size: 13px;
+}
